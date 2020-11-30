@@ -115,6 +115,7 @@ namespace ReviewPeliculas.Azure
                     connection.Open();
                     resultado = sqlCommand.ExecuteNonQuery();
                     connection.Close();
+                    resultado =1;
                 }
                 catch (Exception ex)
                 {
@@ -194,6 +195,7 @@ namespace ReviewPeliculas.Azure
                     connection.Open();
                     resultado = sqlCommand.ExecuteNonQuery();
                     connection.Close();
+                    resultado = 0;
                 }
                 catch (Exception ex)
                 {

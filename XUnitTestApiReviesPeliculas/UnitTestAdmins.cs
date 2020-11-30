@@ -83,8 +83,8 @@ namespace XUnitTestApiReviesPeliculas
         public void TestAgregarUsuario()
         {
             //Arrange
-            int resultadoEsperado = 0;
-            int resultadoObtenido = 1;
+            int resultadoEsperado = 1;
+            int resultadoObtenido = 0;
             Usuario user = new Usuario();
             user.nombres = "Carlos Alberto ";
             user.apellidos = "Vibes Bueno";
@@ -104,8 +104,8 @@ namespace XUnitTestApiReviesPeliculas
         public void TestAgregarUsuarioPorParametro()
         {
             //Arrange
-            int resultadoEsperado = 0;
-            int resultadoObtenido = 1;
+            int resultadoEsperado = 1;
+            int resultadoObtenido = 0;
             string nombres = "Ramon Alberto";
             string apellidos = "Gonzalez Tapia";
             int edad =34;
@@ -154,7 +154,7 @@ namespace XUnitTestApiReviesPeliculas
             Usuario user = new Usuario();
             user.idUsuario =3;
             user.nombres = "Carla Romina";
-            user.apellidos = "Fernandez Salas";
+            user.apellidos = "Herrera Salas";
             user.edad = 23;
             user.genero = "Femenino";
             user.email = "cherrera@gmail.com";
